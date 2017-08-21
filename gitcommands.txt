@@ -1,0 +1,23 @@
+Add all changes in the working directory to the next commit, including new files and deletions: 
+
+Hide   Copy Code
+$ git add -A
+ 
+
+Add all changes to tracked files and all new files to the next commit, but do not add file deletions: 
+
+Hide   Copy Code
+$ git add .
+ 
+
+adds all changes to tracked files and all file removals to the next commit, but does not add new files:
+
+Hide   Copy Code
+$ git add -u
+ 
+
+Walks through changed files and prompts user for add option. Does not include new files: 
+
+Hide   Copy Code
+$ git add -p
+ 
